@@ -14,4 +14,8 @@ function textClass:sun(arg1, arg2, arg3)
     return arg1..arg2..arg3
 end
 
+function textClass:sub(arg1, arg2, arg3)
+    return arg1 - arg2 - arg3
+end
+
 textClass:init()
