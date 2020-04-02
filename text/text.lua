@@ -26,5 +26,8 @@ function textClass:chu(arg1, arg2, arg3)
     return arg1 / arg2 / arg3
 end
 
+function textClass:cheng(arg1, arg2, arg3)
+    return arg1 * arg2 * arg3
+end
 
 textClass:init()
