@@ -10,6 +10,7 @@ end
 
 function textClass:sun(arg1, arg2, arg3)
     local c = 0
+    local d = 0
     return arg1..arg2..arg3
 end
 
